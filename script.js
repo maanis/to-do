@@ -49,6 +49,9 @@ container.addEventListener("click", (e) => {
     }
     else if (e.target.tagName === "SPAN") {
         e.target.parentElement.remove()
+        if(container.innerHTML == ""){
+            clear.style.display = "none"
+        }
         saveData()
     }
 })
