@@ -53,6 +53,7 @@ container.addEventListener("click", (e) => {
     }
 })
 
+
 let clear = document.getElementById("btn")
 let lis = document.querySelectorAll("li")
 
