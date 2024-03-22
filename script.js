@@ -52,7 +52,9 @@ container.addEventListener("click", (e) => {
         saveData()
     }
 })
-
+if(container === ""){
+    clear.style.display = "none"
+}
 
 let clear = document.getElementById("btn")
 let lis = document.querySelectorAll("li")
